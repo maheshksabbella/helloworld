@@ -76,7 +76,7 @@
 		</repository>
 	</repositories>
 	
-    </distributionManagement>
+
 	<distributionManagement>
     <repository>
         <id>my-libs-snapshot</id>
