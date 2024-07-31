@@ -31,6 +31,7 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
+						 <url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
 						<muleVersion>4.4.0</muleVersion>
 						<username>maheshtest123</username>
 						<password>Mahesh@667575</password>
