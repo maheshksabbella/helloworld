@@ -75,13 +75,23 @@
 			<layout>default</layout>
 		</repository>
 	</repositories>
-	<distributionManagement>
-        <repository>
-            <id>central</id>
-            <name>DESKTOP-1KVQC59-releases</name>
-            <url>http://localhost:8081/artifactory/myfirstapi-libs-release</url>
-        </repository>
+	
     </distributionManagement>
+	<distributionManagement>
+    <repository>
+        <id>my-libs-snapshot</id>
+        <name>My Snapshot Repository</name>
+        <url>http://localhost:8082/artifactory/my-libs-snapshot</url> <!-- JFrog Artifactory URL -->
+    </repository>
+</distributionManagement>
+
+<repositories>
+    <repository>
+        <id>my-libs-snapshot</id>
+        <url>http://localhost:8082/artifactory/my-libs-snapshot</url> <!-- JFrog Artifactory URL -->
+    </repository>
+</repositories>
+
 
 	<pluginRepositories>
 		<pluginRepository>
