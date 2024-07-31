@@ -75,6 +75,13 @@
 			<layout>default</layout>
 		</repository>
 	</repositories>
+	<distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>DESKTOP-1KVQC59-releases</name>
+            <url>http://localhost:8081/artifactory/myfirstapi-libs-release</url>
+        </repository>
+    </distributionManagement>
 
 	<pluginRepositories>
 		<pluginRepository>
