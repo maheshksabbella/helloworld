@@ -75,17 +75,17 @@
 			<layout>default</layout>
 		</repository>
 		   <repository>
-        <id>my-libs-snapshot</id>
-        <url>http://localhost:8082/artifactory/my-libs-snapshot</url> <!-- JFrog Artifactory URL -->
+        <id>my-libs-snapshot-local</id>
+        <url>http://localhost:8082/artifactory/my-libs-snapshot-local</url> <!-- JFrog Artifactory URL -->
     </repository>
 	</repositories>
 	
 
 	<distributionManagement>
     <repository>
-        <id>my-libs-snapshot</id>
+        <id>my-libs-snapshot-local</id>
         <name>My Snapshot Repository</name>
-        <url>http://localhost:8082/artifactory/my-libs-snapshot</url> <!-- JFrog Artifactory URL -->
+        <url>http://localhost:8082/artifactory/my-libs-snapshot-local</url> <!-- JFrog Artifactory URL -->
     </repository>
 </distributionManagement>
 
