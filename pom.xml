@@ -74,6 +74,10 @@
 			<url>https://repository.mulesoft.org/releases/</url>
 			<layout>default</layout>
 		</repository>
+		   <repository>
+        <id>my-libs-snapshot</id>
+        <url>http://localhost:8082/artifactory/my-libs-snapshot</url> <!-- JFrog Artifactory URL -->
+    </repository>
 	</repositories>
 	
 
@@ -85,12 +89,7 @@
     </repository>
 </distributionManagement>
 
-<repositories>
-    <repository>
-        <id>my-libs-snapshot</id>
-        <url>http://localhost:8082/artifactory/my-libs-snapshot</url> <!-- JFrog Artifactory URL -->
-    </repository>
-</repositories>
+
 
 
 	<pluginRepositories>
