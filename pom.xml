@@ -115,6 +115,7 @@
             <url>${artifactory.url}/${artifactory.repo}</url> <!-- JFrog Artifactory URL -->
         </snapshotRepository>
     </distributionManagement>
+         
 
     <pluginRepositories>
         <!-- MuleSoft Plugin Repository -->
